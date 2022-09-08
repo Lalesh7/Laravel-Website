@@ -139,3 +139,14 @@
     </div>
 
 </section>
+
+<div class="start-business">
+    <div class="start_business_h1">
+        <h1>
+            Ready to start Business?
+        </h1>
+    </div>
+    <div class="business_button">
+        <button class="start_button">Grow with us</button>
+    </div>
+</div>
