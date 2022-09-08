@@ -541,10 +541,7 @@ header ul.is-sticky li a.active {
     flex: 50%;
 }
 
-
-
-
- /*Footer Section*/
+/*Footer Section*/
 footer{
     background: #1b1813;
     padding: 2rem 0;
@@ -643,6 +640,5 @@ footer small{
 footer small:hover{
     color:#fff;
 }
-
 
 
