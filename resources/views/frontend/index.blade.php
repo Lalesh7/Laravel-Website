@@ -34,3 +34,35 @@
         </div>
         </section>
 </div>
+
+<section id="staff">
+    <div class="container">
+
+        <div class="flex">
+            <div class="card">
+                <img src="{{url('frontend/images/1.jpg')}}" alt="1" />
+                <h3>Lorem ipsum</h3>
+                <p>Sed ac arcu tellus. Vestibulum ullamcorper <br> eu sapien lobortis placerat</p>
+            </div>
+
+            <div class="card">
+                <img src="{{url('frontend/images/2.png')}}" alt="2"/>
+                <h3>Lorem ipsum</h3>
+                <p>Sed ac arcu tellus. Vestibulum ullamcorper <br> eu sapien lobortis placerat</p>
+            </div>
+
+            <div class="card">
+                <img src="{{url('frontend/images/3.png')}}" alt="3"/>
+                <h3>Lorem ipsum</h3>
+                <p>Sed ac arcu tellus. Vestibulum ullamcorper <br> eu sapien lobortis placerat</p>
+            </div>
+
+            <div class="card">
+                <img src="{{url('frontend/images/4.png')}}" alt="4" />
+                <h3>Lorem ipsum</h3>
+                <p>Sed ac arcu tellus. Vestibulum ullamcorper <br> eu sapien lobortis placerat</p>
+            </div>
+
+        </div>
+    </div>
+</section>
