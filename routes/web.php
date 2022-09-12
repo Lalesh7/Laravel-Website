@@ -1,6 +1,14 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\COntrollers\Frontend\HomeController;
+use App\Http\COntrollers\Frontend\AboutController;
+use App\Http\COntrollers\Frontend\Blog1Controller;
+use App\Http\COntrollers\Frontend\ContactController;
+use App\Http\COntrollers\Frontend\LoginController;
+use App\Http\COntrollers\Frontend\ServicesController;
+use App\Http\COntrollers\Frontend\TeamController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +21,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/',[HomeController::class,'index']);
+Route::get('/about',[AboutController::class,'index']);
+Route::get('/blog_1',[Blog1Controller::class,'index']);
+Route::get('/blog',[BlogController::class,'index']);
+Route::get('/contact',[ContactController::class,'index']);
+Route::get('/login',[LoginController::class,'index']);
+Route::get('/services',[ServicesController::class,'index']);
+Route::get('/team',[TeamController::class,'index']);
