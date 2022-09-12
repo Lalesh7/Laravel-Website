@@ -8,6 +8,7 @@ use App\Http\COntrollers\Frontend\ContactController;
 use App\Http\COntrollers\Frontend\LoginController;
 use App\Http\COntrollers\Frontend\ServicesController;
 use App\Http\COntrollers\Frontend\TeamController;
+use App\Http\COntrollers\Frontend\BlogController;
 
 
 /*
