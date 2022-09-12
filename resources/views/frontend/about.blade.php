@@ -6,21 +6,21 @@
         <div id="header-hero-container">
             <header>
                 <div class="flex container">
-                    <a id="logo" href="index.html">Bibhuti Solutions</a>
+                    <a id="logo" href="{{url('/')}}">Bibhuti Solutions</a>
                     <nav>
                         <button id="nav-toggle" class="hamburger-menu">
                             <i class="fas fa-bars"></i>
                         </button>
 
                         <ul id="nav-menu">
-                            <li><a href="index.html" class="active"><b>Home</b></a></li>
-                            <li><a href="about.html"><b>About us</b></a></li>
-                            <li><a href="services.html"><b>Services</b></a></li>
-                            <li><a href="team.html"><b>Team</b></a></li>
-                            <li><a href="blog.html"><b>Blog</b></a></li>
-                            <li><a href="contact.html"><b>Contact us</b></a></li>
-                            <li><a href="login.html"><b>Login</b></a></li>
-                            <li id="close-flyout"><span class="fas fa-window-close"></span></li>
+                        <li><a href="{{url('/')}}" class="active"><b>Home</b></a></li>
+                        <li><a href="{{url('/about')}}"><b>About us</b></a></li>
+                        <li><a href="{{url('/services')}}"><b>Services</b></a></li>
+                        <li><a href="{{url('/team')}}"><b>Team</b></a></li>
+                        <li><a href="{{url('/blog')}}"><b>Blog</b></a></li>
+                        <li><a href="{{url('/contact')}}"><b>Contact us</b></a></li>
+                        <li><a href="{{url('/login')}}"><b>Login</b></a></li>
+                        <li id="close-flyout"><span class="fas fa-window-close"></span></li>
                         </ul>
                     </nav>
                 </div>
@@ -30,14 +30,14 @@
                 <div class="fade"></div>
                 <div class="hero-text">
                     <h1>About us</h1>
-                    <h2> <a href="index.html" class="tab"> Home </a> / About us</h2>
+                    <h2> <a href="{{url('/')}}" class="tab"> Home </a> / About us</h2>
                 </div>
             </section>
         </div>
     </div>
     <section id="company_about">
         <div class="flex container">
-            <img src="images/young-attractive-business-colleagues-joyfully-looking-each-other-working-new-project-together-modern-office.jpg" alt="company about"/>
+            <img src="{{url('frontend/images/young-attractive-business-colleagues-joyfully-looking-each-other-working-new-project-together-modern-office.jpg')}}" alt="company about"/>
             <div>
                 <h2>Title</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nisl tincidunt eget nullam non. Quis hendrerit dolor magna eget est lorem ipsum dolor sit. Volutpat odio facilisis mauris sit amet massa. Commodo odio aenean sed adipiscing diam donec adipiscing tristique. Mi eget mauris pharetra et. Non tellus orci ac auctor augue. Elit at imperdiet dui accumsan sit. <br>Ornare arcu dui vivamus arcu felis. Egestas integer eget aliquet nibh praesent. In hac habitasse platea dictumst quisque sagittis purus. Pulvinar elementum integer enim neque volutpat ac.</p>
