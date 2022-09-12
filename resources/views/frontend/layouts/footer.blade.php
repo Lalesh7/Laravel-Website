@@ -1,16 +1,16 @@
 <footer>
     <div class="flex container">
         <div class="footer-about">
-            <a id="logo" href="index.html">Bibhuti Solutions</a>
+            <a id="logo" href="{{url('/')}}">Bibhuti Solutions</a>
             <p>Lorem ipsum dolor sit amet</p>
         </div>
         <div class="footer-useful-links">
             <h5>Useful Links</h5>
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="servives.html"> Services</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="{{url('/')}}" class="active">Home</a></li>
+                <li><a href="{{url('/services')}}"> Services</a></li>
+                <li><a href="{{url('/team')}}">Team</a></li>
+                <li><a href="{{url('/blog')}}">Blog</a></li>
             </ul>
         </div>
         <div class="footer-what-we-do">
