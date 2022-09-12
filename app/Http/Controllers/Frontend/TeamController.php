@@ -9,6 +9,6 @@ class TeamController extends Controller
 {
     public function index()
     {
-        return view('team.index');
+        return view('frontend.team');
     }
 }
