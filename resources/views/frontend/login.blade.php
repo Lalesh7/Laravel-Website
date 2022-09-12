@@ -1,3 +1,6 @@
+@extends('frontend.layouts.main')
+
+@section('main-container')
 
     <div id="header-hero-container">
         <header>
@@ -124,3 +127,4 @@
 
     </div>
 
+@endsection
