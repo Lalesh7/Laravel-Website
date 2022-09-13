@@ -918,7 +918,8 @@ a.google span{
     text-decoration: none;
     border-radius: 5px;
     border-style: none;
-    margin-left: 130px;
+    width: 123px;
+    margin-left: 105px;
 
 }
 #services .card #btn:hover{
