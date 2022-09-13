@@ -39,7 +39,7 @@
     <div class="main">
         <div class="profile-card">
             <div class="img">
-                <img src="./images/download.jpg">
+                <img src="{{url('frontend/images/download.jpg')}}">
             </div>
             <div class="caption">
                 <h3>Prajwal Adhikari</h3>
@@ -53,7 +53,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="./images/graphic designer.jpg">
+                <img src="{{url('frontend/images/graphic designer.jpg')}}">
             </div>
             <div class="caption">
                 <h3>Raju Shrestha</h3>
@@ -67,7 +67,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="./images/supervisor.jpg">
+                <img src="{{url('frontend/images/supervisor.jpg')}}">
             </div>
             <div class="caption">
                 <h3>Arun Pandey</h3>
@@ -82,7 +82,7 @@
 
         <div class="profile-card">
             <div class="img">
-                <img src="./images/hr.jpg">
+                <img src="{{url('frontend/images/hr.jpg')}}">
             </div>
             <div class="caption">
                 <h3>Sabbu</h3>
@@ -96,7 +96,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="./images/content writer.jpg">
+                <img src="{{url('frontend/images/content writer.jpg')}}">
             </div>
             <div class="caption">
                 <h3>Harshha Sharma</h3>
@@ -110,7 +110,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="./images/supervisor.jpg">
+                <img src="{{url('frontend/images/supervisor.jpg')}}">
             </div>
             <div class="caption">
                 <h3>Bhim Vai</h3>
@@ -124,7 +124,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="./images/graphic designer.jpg">
+                <img src="{{url('frontend/images/graphic designer.jpg')}}">
             </div>
             <div class="caption">
                 <h3>Rashish Thapa</h3>
@@ -138,7 +138,7 @@
         </div>
         <div class="profile-card">
             <div class="img">
-                <img src="./images/hr.jpg">
+                <img src="{{url('frontend/images/hr.jpg')}}">
             </div>
             <div class="caption">
                 <h3>Anu Khadka</h3>
