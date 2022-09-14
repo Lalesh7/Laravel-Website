@@ -74,7 +74,8 @@
             </div>
         </div>
     </div>
-
+    <form action="{{url('/')}}/question" method="post">
+        @csrf
     <div class="any_questions">
                 <section class="contact-us">
                     <div class="container">
@@ -91,16 +92,20 @@
                                     <div class="form-row">
                                         <div class="col-md-12 form-group">
                                             <input type="text" name="name" class="form-control" id="name" placeholder="Name" />
+                                            <span class="text-danger"></span>
                                         </div>
                                         <div class="col-md-12 form-group">
                                             <input type="email" class="form-control" name="email" id="email" placeholder="Email" />
+                                            <span class="text-danger"></span>
                                         </div>
                                     </div>
                                     <div class="form-group">
                                         <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" />
+                                        <span class="text-danger"></span>
                                     </div>
                                     <div class="form-group">
                                         <textarea class="form-control" name="message" placeholder="Message"></textarea>
+                                        <span class="text-danger"></span>
                                     </div>
                                     <button type="submit" class="btn btn-light">Send</button>
                                 </form>
@@ -115,5 +120,6 @@
                     </div>
                 </section>
     </div>
+    </form>
 
 @endsection
