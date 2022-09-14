@@ -30,3 +30,6 @@ Route::get('/contact',[ContactController::class,'index']);
 Route::get('/login',[LoginController::class,'index']);
 Route::get('/services',[ServicesController::class,'index']);
 Route::get('/team',[TeamController::class,'index']);
+
+Route::get('/question', [ContactController::class, 'index']);
+Route::post('/question', [ContactController::class, 'question']);
