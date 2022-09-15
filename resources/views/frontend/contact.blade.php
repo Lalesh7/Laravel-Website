@@ -91,21 +91,37 @@
                                 <form action="/" class="mb-4 mb-lg-0">
                                     <div class="form-row">
                                         <div class="col-md-12 form-group">
-                                            <input type="text" name="name" class="form-control" id="name" placeholder="Name" />
-                                            <span class="text-danger"></span>
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Name" value="{{old('name')}}" />
+                                            <span class="text-danger">
+                                                @error('name')
+                                                {{$message}}
+                                                @enderror
+                                            </span>
                                         </div>
                                         <div class="col-md-12 form-group">
-                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" />
-                                            <span class="text-danger"></span>
+                                            <input type="email" class="form-control" name="email" id="email" placeholder="Email" value="{{old('email')}}" />
+                                            <span class="text-danger">
+                                                @error('email')
+                                                {{$message}}
+                                                @enderror
+                                            </span>
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" />
-                                        <span class="text-danger"></span>
+                                        <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" value="{{old('phone')}}"/>
+                                        <span class="text-danger">
+                                            @error('phone')
+                                                {{$message}}
+                                                @enderror
+                                        </span>
                                     </div>
                                     <div class="form-group">
-                                        <textarea class="form-control" name="message" placeholder="Message"></textarea>
-                                        <span class="text-danger"></span>
+                                        <textarea class="form-control" name="message" placeholder="Message" id="message"></textarea>
+                                        <span class="text-danger">
+                                            @error('message')
+                                                {{$message}}
+                                                @enderror
+                                        </span>
                                     </div>
                                     <button type="submit" class="btn btn-light">Send</button>
                                 </form>
